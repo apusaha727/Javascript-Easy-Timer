@@ -4,6 +4,8 @@ This is a simple javascript timer allow you to count down time.
 
 Its very easy to custimize.
 
+```
+<script>
 // Set the date we're counting down to
 var countDownDate = new Date("Oct 11, 2019 17:00:00").getTime();
 
@@ -32,3 +34,5 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+</script>
+```
